@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/legacyparktennis7",
+            "outputPath": "dist/legacyparktennis",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -23,7 +23,8 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "./node_modules/font-awesome/css/font-awesome.css"
             ],
             "scripts": []
           },
@@ -57,11 +58,11 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "legacyparktennis7:build"
+            "browserTarget": "legacyparktennis:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "legacyparktennis7:build:production"
+              "browserTarget": "legacyparktennis:build:production"
             }
           }
         },
@@ -111,11 +112,11 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "legacyparktennis7:serve"
+            "devServerTarget": "legacyparktennis:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "legacyparktennis7:serve:production"
+              "devServerTarget": "legacyparktennis:serve:production"
             }
           }
         },
@@ -131,5 +132,5 @@
       }
     }
   },
-  "defaultProject": "legacyparktennis7"
+  "defaultProject": "legacyparktennis"
 }

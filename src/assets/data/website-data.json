@@ -1,0 +1,180 @@
+{
+  "events" : {
+    "1-2019-winter-tennis-olympics" : {
+      "date" : "03/02/2019",
+      "description" : "Come join us for Legacy Park's biggest tournament of the year.  There will be a bracket for every skill level ranging from 2.5 to 4.0+.",
+      "fee" : "35.00",
+      "format" : "Mixer",
+      "fylerurl" : "http://www.example.com",
+      "regurl" : "https://codingthesmartway.com/courses/vuejs2-complete-guide",
+      "thumbnail" : "../assets/img/events/fallclassic.png",
+      "title" : "Winter Tennis Olympics"
+    },
+    "2-2019-beer-fest" : {
+      "date" : "04/13/2019",
+      "description" : "Come join us for Legacy Park's biggest tournament of the year.  There will be a bracket for every skill level ranging from 2.5 to 4.0+.",
+      "fee" : "35.00",
+      "format" : "Mixer",
+      "fylerurl" : "http://www.example.com",
+      "regurl" : "https://codingthesmartway.com/courses/vuejs2-complete-guide",
+      "thumbnail" : "../assets/img/events/fallclassic.png",
+      "title" : "Beer Fest"
+    },
+    "3-2018-fall-classic" : {
+      "date" : "8/29 - 9/2/2018",
+      "description" : "Come join us for Legacy Park's biggest tournament of the year.  There will be a bracket for every skill level ranging from 2.5 to 4.0+.",
+      "fee" : "35.00",
+      "format" : "Men & Women's Doubles",
+      "fylerurl" : "http://www.example.com",
+      "regurl" : "https://codingthesmartway.com/courses/vuejs2-complete-guide",
+      "thumbnail" : "../assets/img/events/fallclassic.png",
+      "title" : "Fall Classic Tournament"
+    },
+    "4-2018-college-football-craft-beer-mixer" : {
+      "date" : "9/8/2018",
+      "description" : "Wear your favorite team colors.  Bring an appetizer and a 4/6 pack of craft beer for exchange.",
+      "fee" : "10.00",
+      "format" : "Mixer",
+      "fylerurl" : "http://www.example.com",
+      "regurl" : "https://codingthesmartway.com/courses/vuejs2-complete-guide",
+      "thumbnail" : "../assets/img/events/collegefootballmixer.png",
+      "title" : "College Football & Craft Beer Mixer"
+    },
+    "5-2018-tennis-disc-golf-doubles-tournament" : {
+      "date" : "11/3/2018",
+      "description" : "Join us for our annual tennis & disc golf tournament.",
+      "fee" : "25.00",
+      "format" : "Team Competition",
+      "fylerurl" : "http://www.example.com",
+      "regurl" : "https://codingthesmartway.com/courses/vuejs2-complete-guide",
+      "thumbnail" : "../assets/img/events/discgolf.png",
+      "title" : "Tennis & Disc Golf Doubles Tournament"
+    }
+  },
+  "programs" : {
+    "1-private-lessons" : {
+      "description" : "Time spent with a pro is the fastest way to improvement. We offer private, semi-private or private group lessons a Tennis Pro.",
+      "thumbnail" : "../assets/img/programs/private_lessons.jpg",
+      "title" : "Private Lessons"
+    },
+    "2-team-drills" : {
+      "description" : "Group Drills are suitable for adults or juniors and often consist of practice games and drills that focus on the fun aspect of the game.",
+      "thumbnail" : "../assets/img/programs/team-drills.jpg",
+      "title" : "Team Drills"
+    },
+    "3-league-play" : {
+      "description" : "Arrange your own matches, play different opponents each week or compete against other clubs in your region.",
+      "thumbnail" : "../assets/img/programs/league.jpg",
+      "title" : "Leagues & Match Play"
+    },
+    "4-weekly-drills" : {
+      "description" : "Continue the development of stroke technique and strategy without a lengthy commitment. Get in maximum practice time.",
+      "thumbnail" : "../assets/img/programs/team-drills.jpg",
+      "title" : "Weekly Drills & Clinics"
+    },
+    "5-events-tournaments" : {
+      "description" : "Find all levels of USTA-sanctioned camps, events and tournaments. Singles and doubles, both age- and level-specific.",
+      "thumbnail" : "../assets/img/programs/tournament.jpg",
+      "title" : "Events & Tournaments"
+    },
+    "6-member-mixers" : {
+      "description" : "Show up to play without having to find your own partner. Meet new tennis friends and compete every week.",
+      "thumbnail" : "../assets/img/programs/matches.jpg",
+      "title" : "Member Mixers"
+    }
+  },
+  "pros" : {
+    "1-adam-grandstaff" : {
+      "certs" : [ {
+        "description" : "USPTA and GPTA member, Certified Referee by USTA, prior to joining Legacy Park in 2007, was Head Pro for Town Lake Hills in Cherokee County."
+      }, {
+        "description" : "Played tennis for Wallace College in singles and doubles, graduated from Auburn University."
+      } ],
+      "name" : "Adam Grandstaff",
+      "phone" : "(678) 521-5496",
+      "thumbnail" : "../assets/img/pros/adam.jpg",
+      "title" : "Director of Tennis"
+    },
+    "2-darrio-williams" : {
+      "certs" : [ {
+        "description" : "USPTA Certified Elite Teaching Professional, with 25 years of teaching/coaching experience. Graduate of the Professional Tennis Management Program at Ferris State University."
+      }, {
+        "description" : "Legacy Park Head Pro 2009-2012, 2009 USTA High Performance Tennis Coach, 2010 Certified AS-C/RPT Coaching Course, The Spanish Way to Develop Players."
+      }, {
+        "description" : "International Tennis Performance Association (ITPA) Certified Tennis Performance Trainer (2013)."
+      } ],
+      "name" : "Darrio Williams",
+      "phone" : "(770) 335-6235",
+      "thumbnail" : "../assets/img/pros/darrio.jpg",
+      "title" : "Director of Junior Tennis"
+    }
+  },
+  "sponsorship" : {
+    "1-platinum" : {
+      "cost" : "$1000",
+      "description" : "Platinum",
+      "perks" : [ {
+        "description" : "One court named for sponsor durning the duration of each event held during the calendar year (1st 6 platinum sponsors)"
+      }, {
+        "description" : "Sponsor name promoted in all communications to the tennis community prior to each event"
+      }, {
+        "description" : "Sponsor provided banner displayed at the tennis center during event"
+      }, {
+        "description" : "10 x 10 tent/table provided for sponsor promotions"
+      }, {
+        "description" : "Two paid entries to participate in the tournament"
+      } ],
+      "thumbnail" : "../assets/img/sponsor/Platinum.png"
+    },
+    "2-gold" : {
+      "cost" : "$500",
+      "description" : "Gold",
+      "perks" : [ {
+        "description" : "One court named for sponsor durning the duration of each event held during of the event (1st 12 gold sponsors)"
+      }, {
+        "description" : "Sponsor name promoted in all communications to the tennis community prior to the event"
+      }, {
+        "description" : "Sponsor provided banner displayed at the tennis center during the event"
+      }, {
+        "description" : "10 x 10 tent/table provided for sponsor promotions"
+      }, {
+        "description" : "Two paid entries to participate in the tournament"
+      } ],
+      "thumbnail" : "../assets/img/sponsor/Gold.png"
+    },
+    "3-silver" : {
+      "cost" : "$300",
+      "description" : "Silver",
+      "perks" : [ {
+        "description" : "Sponsor name promoted in all communications to the tennis community prior to the event"
+      }, {
+        "description" : "Sponsor provided banner displayed at the tennis center during the event"
+      }, {
+        "description" : "10 x 10 tent/table provided for sponsor promotions"
+      }, {
+        "description" : "One paid entries to participate in the tournament"
+      } ],
+      "thumbnail" : "../assets/img/sponsor/Silver.png"
+    },
+    "4-advertising" : {
+      "cost" : "$150",
+      "description" : "Advertising",
+      "perks" : [ {
+        "description" : "Sponsor name promoted in all communications to the tennis community prior to the event"
+      }, {
+        "description" : "Sponsor provided banner displayed at the tennis center during the event"
+      } ],
+      "thumbnail" : "../assets/img/sponsor/Advertising.png"
+    },
+    "5-foodbeverage" : {
+      "cost" : "Provide Food/Beverage for Players",
+      "description" : "Food/Beverage",
+      "perks" : [ {
+        "description" : "Food and/or beverages to be provided by sponsor for tournament attendees."
+      }, {
+        "description" : "Sponsor allowed to provide advertising (e.g. menus, coupons, etc) at the event to promote their company."
+      } ],
+      "thumbnail" : "../assets/img/sponsor/Food.png"
+    }
+  }
+}

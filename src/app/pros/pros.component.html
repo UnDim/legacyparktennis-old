@@ -1,0 +1,39 @@
+<section class="jumbotron text-center">
+  <div class="container">
+    <h1 id="pros" class="jumbotron-heading">Our Pros</h1>
+    <p class="lead text-muted">Our teaching professionals are dedicated to helping you take your game to the next level. Meet our team of tennis pros.</p>
+  </div>
+</section>
+
+<section id="team" class="pb-5 album py-5 bg-light">
+  <div class="container">
+      <div class="row">
+          <div class="col-xs-12 col-sm-6 col-md-6" *ngFor = "let pro of prosObservable | async">
+              <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                  <div class="mainflip">
+                      <div class="frontside">
+                          <div class="card">
+                              <div class="card-body text-center">
+                                  <p><img class=" img-fluid" src={{pro.thumbnail}}></p>
+                                  <h4 class="card-title">{{pro.name}}</h4>
+                                  <p class="card-text">{{pro.title}}</p>
+                                  <p class="card-text">{{pro.phone}}</p>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="backside">
+                          <div class="card">
+                              <div class="card-body text-center mt-4">
+                                  <p class="card-text" *ngFor="let cert of pro.certs">
+                                    {{ cert.description }}
+                                  </p>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+     </div>
+  </div>
+</section>
+
