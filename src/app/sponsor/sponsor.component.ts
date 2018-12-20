@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Observable } from 'rxjs/Observable';
+import { AngularFireDatabase } from '@angular/fire/database'; 
 
 @Component({
   selector: 'sponsor',
@@ -7,9 +9,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SponsorComponent implements OnInit {
 
-  constructor() { }
-
+  levelsObservable:  Observable<any[]>;
+  constructor(private db: AngularFireDatabase) { }
   ngOnInit() {
+    this.levelsObservable = this.getSponsors('/sponsorship');
   }
-
+  getSponsors(listPath): Observable<any[]> {
+    return this.db.list(listPath).valueChanges();
+  }
 }

@@ -1,3 +1,30 @@
-<p>
-  sponsor works!
-</p>
+<section class="jumbotron text-center">
+  <div class="container">
+    <h1 id="sponsorship" class="jumbotron-heading">Sponsorship Opportunities</h1>
+    <p class="lead text-muted">Below is a list of the sponsorship levels that Legacy Park Tennis offers.  Individuals or buinesses can sponsor an event or an entire year.</p>
+  </div>
+</section>
+
+<div class="album py-5 bg-light">
+  <div class="container">
+      <div class="row">
+          <div class="col-md-4" *ngFor = "let level of levelsObservable | async">
+          <div class="card mb-4 box-shadow">
+          <img class="card-img-top" src={{level.thumbnail}}>
+          <div class="card-body">
+              <h5 class="card-title">{{level.description}}</h5>
+              <p class="card-text">{{level.cost}}</p>
+              <p class="text-muted" *ngFor="let perk of level.perks">
+                {{perk.description}}
+              </p>
+              <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a href="mailto:committee@legacyparktennis.org?subject={{level.description}} Sponsorship Information Requested" class="btn btn-sm btn-outline-secondary">More Info</a>
+                  </div>
+              </div>
+            </div>
+          </div>    
+          </div>
+      </div>
+  </div>
+</div>
