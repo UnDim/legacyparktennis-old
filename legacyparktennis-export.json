@@ -1,59 +1,75 @@
 {
   "events" : {
     "1-2019-winter-tennis-olympics" : {
-      "date" : "03/02/2019",
-      "description" : "Come join us for Legacy Park's biggest tournament of the year.  There will be a bracket for every skill level ranging from 2.5 to 4.0+.",
-      "fee" : "35.00",
-      "format" : "Mixer",
-      "fylerurl" : "http://www.example.com",
-      "regurl" : "https://codingthesmartway.com/courses/vuejs2-complete-guide",
-      "thumbnail" : "../assets/img/events/fallclassic.png",
-      "title" : "Winter Tennis Olympics"
+      "date" : "Mar 2, 2019",
+      "description" : "The Winter Olympics is a competition between 4-person teams who compete in tennis-themed events.",
+      "fee" : "15.00",
+      "format" : "Team Competition",
+      "fylerurl" : "",
+      "regurl" : "",
+      "thumbnail" : "../assets/img/events/olympics.png",
+      "title" : "Winter Tennis Olympics",
+      "regbtndisabled" : "true"
     },
     "2-2019-beer-fest" : {
-      "date" : "04/13/2019",
-      "description" : "Come join us for Legacy Park's biggest tournament of the year.  There will be a bracket for every skill level ranging from 2.5 to 4.0+.",
+      "date" : "Apr 13, 2019",
+      "description" : "",
       "fee" : "35.00",
       "format" : "Mixer",
-      "fylerurl" : "http://www.example.com",
-      "regurl" : "https://codingthesmartway.com/courses/vuejs2-complete-guide",
-      "thumbnail" : "../assets/img/events/fallclassic.png",
-      "title" : "Beer Fest"
+      "fylerurl" : "",
+      "regurl" : "",
+      "thumbnail" : "../assets/img/events/beerfest.png",
+      "title" : "Beer Fest",
+      "regbtndisabled" : "false"
     },
-    "3-2018-fall-classic" : {
-      "date" : "8/29 - 9/2/2018",
-      "description" : "Come join us for Legacy Park's biggest tournament of the year.  There will be a bracket for every skill level ranging from 2.5 to 4.0+.",
+    "3-2019-Spring-Mixed-Tournament" : {
+      "date" : "May 17-19, 2019",
+      "description" : "",
       "fee" : "35.00",
-      "format" : "Men & Women's Doubles",
-      "fylerurl" : "http://www.example.com",
-      "regurl" : "https://codingthesmartway.com/courses/vuejs2-complete-guide",
-      "thumbnail" : "../assets/img/events/fallclassic.png",
-      "title" : "Fall Classic Tournament"
+      "format" : "Mixed Doubles",
+      "fylerurl" : "",
+      "regurl" : "",
+      "thumbnail" : "../assets/img/events/spring-mixed.png",
+      "title" : "Spring Mixed Tournament",
+      "regbtndisabled" : "false"
     },
-    "4-2018-college-football-craft-beer-mixer" : {
-      "date" : "9/8/2018",
-      "description" : "Wear your favorite team colors.  Bring an appetizer and a 4/6 pack of craft beer for exchange.",
+    "4-2019-margarita-mixer" : {
+      "date" : "Jun 22, 2019",
+      "description" : "",
       "fee" : "10.00",
       "format" : "Mixer",
-      "fylerurl" : "http://www.example.com",
-      "regurl" : "https://codingthesmartway.com/courses/vuejs2-complete-guide",
-      "thumbnail" : "../assets/img/events/collegefootballmixer.png",
-      "title" : "College Football & Craft Beer Mixer"
+      "fylerurl" : "",
+      "regurl" : "",
+      "thumbnail" : "../assets/img/events/margarita-mixer.png",
+      "title" : "Margarita Mixer",
+      "regbtndisabled" : "false"
     },
-    "5-2018-tennis-disc-golf-doubles-tournament" : {
-      "date" : "11/3/2018",
-      "description" : "Join us for our annual tennis & disc golf tournament.",
+    "5-2019-tennis-disc-golf-doubles-tournament" : {
+      "date" : "Jul 13, 2019",
+      "description" : "Join us for our annual tennis & disc golf tournament.  This will be a team competition in which each team competes in tennis and disc golf.",
       "fee" : "25.00",
       "format" : "Team Competition",
-      "fylerurl" : "http://www.example.com",
-      "regurl" : "https://codingthesmartway.com/courses/vuejs2-complete-guide",
+      "fylerurl" : "",
+      "regurl" : "",
       "thumbnail" : "../assets/img/events/discgolf.png",
-      "title" : "Tennis & Disc Golf Doubles Tournament"
+      "title" : "Tennis & Disc Golf Tournament",
+      "regbtndisabled" : "false"
+    },
+    "6-2019-fall-classic" : {
+      "date" : "Aug 21-24, 2019",
+      "description" : "Come join us for Legacy Park's biggest tournament of the year.  There will be a bracket for every skill level ranging from 2.5 to 4.0+.",
+      "fee" : "25.00",
+      "format" : "Men & Womens' Doubles",
+      "fylerurl" : "",
+      "regurl" : "",
+      "thumbnail" : "../assets/img/events/fallclassic.png",
+      "title" : "Fall Classic Tournament",
+      "regbtndisabled" : "false"
     }
   },
   "programs" : {
     "1-private-lessons" : {
-      "description" : "Time spent with a pro is the fastest way to improvement. We offer private, semi-private or private group lessons a Tennis Pro.",
+      "description" : "Time spent with a pro is the fastest way to improvement. We offer private, semi-private or private group lessons with a pro.",
       "thumbnail" : "../assets/img/programs/private_lessons.jpg",
       "title" : "Private Lessons"
     },
@@ -111,10 +127,10 @@
   },
   "sponsorship" : {
     "1-platinum" : {
-      "cost" : "$1000",
+      "cost" : "$1,000",
       "description" : "Platinum",
       "perks" : [ {
-        "description" : "One court named for sponsor durning the duration of each event held during the calendar year (1st 6 platinum sponsors)"
+        "description" : "One court named for sponsor during the duration of each event held throughout the calendar year (1st 6 platinum sponsors)"
       }, {
         "description" : "Sponsor name promoted in all communications to the tennis community prior to each event"
       }, {
@@ -130,7 +146,7 @@
       "cost" : "$500",
       "description" : "Gold",
       "perks" : [ {
-        "description" : "One court named for sponsor durning the duration of each event held during of the event (1st 12 gold sponsors)"
+        "description" : "One court named for sponsor during the duration of each event held during of the event (1st 12 gold sponsors)"
       }, {
         "description" : "Sponsor name promoted in all communications to the tennis community prior to the event"
       }, {
@@ -152,7 +168,7 @@
       }, {
         "description" : "10 x 10 tent/table provided for sponsor promotions"
       }, {
-        "description" : "One paid entries to participate in the tournament"
+        "description" : "One paid entry to participate in the tournament"
       } ],
       "thumbnail" : "../assets/img/sponsor/Silver.png"
     },

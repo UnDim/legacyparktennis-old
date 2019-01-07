@@ -16,12 +16,13 @@
               <p class="card-text">{{event.description}}</p>
               <p class="text-muted">Fee:  ${{event.fee}}</p>
               <p class="text-muted">Format:  {{event.format}}</p>
+              <p class="text-muted">Date:  {{event.date}}</p>
               <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
-                  <a href={{event.flyerurl}} class="btn btn-sm btn-outline-secondary">More Info</a>
-                  <a href={{event.regurl}} (click)="open(content)" class="btn btn-sm btn-outline-secondary">Register</a>
+                  <button class="btn btn-sm btn-outline-secondary" (click)="open(info)">More Info</button>
+                  <button class="btn btn-sm btn-outline-secondary" (click)="open(register)">Register</button>
                   </div>
-                  <small class="text-muted">{{event.date}}</small>
+                  <!-- <small class="text-muted">{{event.date}}</small> -->
               </div>
               </div>
           </div>    
@@ -29,3 +30,40 @@
       </div>
   </div>
 </div>
+
+<ng-template #info let-modal>
+    <div class="modal-header">
+      <h4 class="modal-title" id="modal-basic-title">More Info</h4>
+      <button type="button" class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+    <div class="modal-body">
+      <form>
+        <div class="form-group">
+          <label for="dateOfBirth">First Name</label>
+          <div class="input-group">
+            <input id="dateOfBirth" class="form-control" placeholder="yyyy-mm-dd" name="dp" ngbDatepicker #dp="ngbDatepicker">
+            
+          </div>
+        </div>
+      </form>
+    </div>
+    <div class="modal-footer">
+      <button type="button" class="btn btn-sm btn-outline-secondary" (click)="modal.close('Save click')">Save</button>
+    </div>
+  </ng-template>
+
+  <ng-template #register let-modal>
+    <div class="modal-header">
+      <h4 class="modal-title" id="modal-basic-title">Register</h4>
+      <button type="button" class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+    <div class="modal-body">
+     <!-- Insert code here for form on cognitz forms -->
+      <iframe src="https://services.cognitoforms.com/f/YOpytH6iA0WwRzYK5nZW5w?id=3" style="position:relative;width:1px;min-width:100%;*width:100%;" frameborder="0" scrolling="yes" seamless="seamless" height="572" width="100%"></iframe>
+      <script src="https://services.cognitoforms.com/scripts/embed.js"></script>
+    </div>
+  </ng-template>
