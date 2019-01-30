@@ -9,7 +9,7 @@
       "regurl" : "",
       "thumbnail" : "../assets/img/events/olympics.png",
       "title" : "Winter Tennis Olympics",
-      "regbtndisabled" : "true"
+      "regbutton" : ""
     },
     "2-2019-beer-fest" : {
       "date" : "Apr 13, 2019",
@@ -20,7 +20,7 @@
       "regurl" : "",
       "thumbnail" : "../assets/img/events/beerfest.png",
       "title" : "Beer Fest",
-      "regbtndisabled" : "false"
+      "regbutton" : "disabled"
     },
     "3-2019-Spring-Mixed-Tournament" : {
       "date" : "May 17-19, 2019",
@@ -31,7 +31,7 @@
       "regurl" : "",
       "thumbnail" : "../assets/img/events/spring-mixed.png",
       "title" : "Spring Mixed Tournament",
-      "regbtndisabled" : "false"
+      "regbutton" : "disabled"
     },
     "4-2019-margarita-mixer" : {
       "date" : "Jun 22, 2019",
@@ -42,7 +42,7 @@
       "regurl" : "",
       "thumbnail" : "../assets/img/events/margarita-mixer.png",
       "title" : "Margarita Mixer",
-      "regbtndisabled" : "false"
+      "regbutton" : "disabled"
     },
     "5-2019-tennis-disc-golf-doubles-tournament" : {
       "date" : "Jul 13, 2019",
@@ -53,7 +53,7 @@
       "regurl" : "",
       "thumbnail" : "../assets/img/events/discgolf.png",
       "title" : "Tennis & Disc Golf Tournament",
-      "regbtndisabled" : "false"
+      "regbutton" : "disabled"
     },
     "6-2019-fall-classic" : {
       "date" : "Aug 21-24, 2019",
@@ -64,7 +64,7 @@
       "regurl" : "",
       "thumbnail" : "../assets/img/events/fallclassic.png",
       "title" : "Fall Classic Tournament",
-      "regbtndisabled" : "false"
+      "regbutton" : "disabled"
     }
   },
   "programs" : {
@@ -140,7 +140,7 @@
       }, {
         "description" : "Two paid entries to participate in the tournament"
       } ],
-      "thumbnail" : "../assets/img/sponsor/Platinum.png"
+      "thumbnail" : "../assets/img/sponsor/platinum-level.png"
     },
     "2-gold" : {
       "cost" : "$500",
@@ -156,7 +156,7 @@
       }, {
         "description" : "Two paid entries to participate in the tournament"
       } ],
-      "thumbnail" : "../assets/img/sponsor/Gold.png"
+      "thumbnail" : "../assets/img/sponsor/gold-level.png"
     },
     "3-silver" : {
       "cost" : "$300",
@@ -170,7 +170,7 @@
       }, {
         "description" : "One paid entry to participate in the tournament"
       } ],
-      "thumbnail" : "../assets/img/sponsor/Silver.png"
+      "thumbnail" : "../assets/img/sponsor/silver-level.png"
     },
     "4-advertising" : {
       "cost" : "$150",
@@ -180,7 +180,7 @@
       }, {
         "description" : "Sponsor provided banner displayed at the tennis center during the event"
       } ],
-      "thumbnail" : "../assets/img/sponsor/Advertising.png"
+      "thumbnail" : "../assets/img/sponsor/advertising-level.png"
     },
     "5-foodbeverage" : {
       "cost" : "Provide Food/Beverage for Players",
@@ -190,7 +190,21 @@
       }, {
         "description" : "Sponsor allowed to provide advertising (e.g. menus, coupons, etc) at the event to promote their company."
       } ],
-      "thumbnail" : "../assets/img/sponsor/Food.png"
+      "thumbnail" : "../assets/img/sponsor/food-level.png"
+    }
+  },
+  "hero-images" : {
+    "1-image" : {
+      "url" : "../assets/img/hero/hero1.jpeg",
+      "description" : "Test1"
+    },
+    "2-image" : {
+      "url" : "../assets/img/hero/hero2.jpeg",
+      "description" : "Test2"
+    },
+    "3-image" : {
+      "url" : "../assets/img/hero/hero3.jpeg",
+      "description" : "Test3"
     }
   }
 }

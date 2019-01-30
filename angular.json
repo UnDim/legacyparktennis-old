@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "legacyparktennis7": {
+    "legacyparktennis": {
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
@@ -69,7 +69,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "legacyparktennis7:build"
+            "browserTarget": "legacyparktennis:build"
           }
         },
         "test": {

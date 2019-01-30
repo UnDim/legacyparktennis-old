@@ -24,11 +24,20 @@ ul.social-network li {
 .social-network a.icoFacebook:hover {
 	background-color:#3B5998;
 }
+
+.social-network a.icoInstagram:hover {
+	background-color:#458eff;
+}
+
+.social-network a.icoTwitter:hover {
+	background-color:#0084b4;
+}
+
 .social-network a.icoEmail:hover {
 	background-color:#808000;
 }
 
-.social-network a.icoFacebook:hover i, .social-network a.icoEmail:hover i {
+.social-network a.icoFacebook:hover i, .social-network a.icoEmail:hover i , .social-network a.icoInstagram:hover i, .social-network a.icoTwitter:hover  {
 	color:#fff;
 }
 a.socialIcon:hover, .socialHoverClass {
