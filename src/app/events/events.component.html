@@ -8,21 +8,22 @@
 <div class="album py-5 bg-light">
   <div class="container">
       <div class="row">
-          <div class="col-md-4" *ngFor = "let event of eventsObservable | async">
+          <div class="col-md-4 d-flex" *ngFor = "let event of eventsObservable | async">
           <div class="card mb-4 box-shadow">
           <img class="card-img-top" src={{event.thumbnail}}>
-          <div class="card-body">
+          <div class="card-body flex-fill">
               <h5 class="card-title">{{event.title}}</h5>
               <p class="card-text">{{event.description}}</p>
               <p class="text-muted">Fee:  ${{event.fee}}</p>
               <p class="text-muted">Format:  {{event.format}}</p>
               <p class="text-muted">Date:  {{event.date}}</p>
+              <!-- <small class="text-muted">Time:  {{event.time}}</small> -->
               <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
                   <!-- <button class="btn btn-sm btn-outline-secondary" (click)="open(info)">Flyer</button> -->
                   <button class="{{event.regbutton}} btn btn-sm btn-outline-secondary" (click)="open(register)">Register</button>
                   </div>
-                  <!-- <small class="text-muted">{{event.date}}</small> -->
+                  <small class="text-muted">Time:  {{event.time}}</small>
               </div>
               </div>
           </div>    
