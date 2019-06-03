@@ -21,7 +21,7 @@
               <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
                   <!-- <button class="btn btn-sm btn-outline-secondary" (click)="open(info)">Flyer</button> -->
-                  <button class="{{event.regbutton}} btn btn-sm btn-outline-secondary" (click)="open(register)">Register</button>
+                    <button class="{{event.regbutton}} btn btn-sm btn-outline-secondary" (click)="onRegClick(event.regurl)">Register</button>
                   </div>
                   <small class="text-muted">Time:  {{event.time}}</small>
               </div>
@@ -34,19 +34,15 @@
 
 <!-- Modals -->
 
-<ng-template #register let-modal>
-  <div class="modal-header">
-    <h4 class="modal-title" id="modal-basic-title">Register</h4>
-    <button type="button" class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
-      <span aria-hidden="true">&times;</span>
-    </button>
-  </div>
-  <div class="modal-body">
-    <!-- {{event.regurl}} -->
-    <iframe src="https://services.cognitoforms.com/f/YOpytH6iA0WwRzYK5nZW5w?id=4" style="position:relative;width:1px;min-width:100%;*width:100%;" frameborder="0" scrolling="yes" seamless="seamless" height="412" width="100%"></iframe>
-    <script src="https://services.cognitoforms.com/scripts/embed.js"></script>
-  </div>
-  <!-- <div class="modal-footer">
-    <button type="button" class="btn btn-outline-dark" (click)="modal.close('Submit click')">Submit</button>
-  </div> -->
-</ng-template>
+<!--<ng-template #register let-modal>-->
+<!--  <div class="modal-header">-->
+<!--    <h4 class="modal-title" id="modal-basic-title">Register</h4>-->
+<!--    <button type="button" class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">-->
+<!--      <span aria-hidden="true">&times;</span>-->
+<!--    </button>-->
+<!--  </div>-->
+<!--  <div class="modal-body">-->
+<!--    <iframe src="https://services.cognitoforms.com/f/YOpytH6iA0WwRzYK5nZW5w?id=6" style="position:relative;width:1px;min-width:100%;*width:100%;" frameborder="0" scrolling="yes" seamless="seamless" height="856" width="100%"></iframe>-->
+<!--    <script src="https://services.cognitoforms.com/scripts/embed.js"></script>-->
+<!--  </div>-->
+<!--</ng-template>-->

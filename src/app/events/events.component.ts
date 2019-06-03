@@ -28,6 +28,14 @@ export class EventsComponent implements OnInit {
     });
   }
 
+  onRegClick(regUrl) {
+    console.log(regUrl);
+    var win = window.open(regUrl, '_blank');
+    win.opener = null;
+    win.focus();
+
+  }
+
   private getDismissReason(reason: any): string {
     if (reason === ModalDismissReasons.ESC) {
       return 'by pressing ESC';
