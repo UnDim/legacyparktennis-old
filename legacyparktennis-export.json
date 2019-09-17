@@ -1,76 +1,28 @@
 {
   "events" : {
-    "1-2019-winter-tennis-olympics" : {
-      "date" : "Mar 2, 2019",
-      "time" : "4pm - 7pm",
-      "description" : "The Winter Olympics is a competition between 4-person teams who compete in tennis-themed events.",
-      "fee" : "15.00",
+    "1-2019-pickle-ball" : {
+      "date" : "Fall 2019",
+      "time" : "",
+      "description" : "It’s a Big Dill! Join us for our first Pickleball League this fall. Play starts on Tuesday, October 8th. Register now, it’s absolutely FREE.  No equipment or skill needed.  If you don’t have a partner, you won’t be in a pickle. We’ll find you one.",
+      "fee" : "0.00",
       "format" : "Team Competition",
       "fylerurl" : "",
-      "regurl" : "",
+      "regurl" : "https://www.cognitoforms.com/LegacyParkTennis/LegacyParkPickleballLeagueFall2019",
       "thumbnail" : "../assets/img/events/olympics.png",
-      "title" : "Winter Tennis Olympics",
-      "regbutton" : ""
+      "title" : "Fall Pickleball League",
+      "regbutton" : "enabled"
     },
-    "2-2019-beer-fest" : {
-      "date" : "Apr 13, 2019",
-      "time" : "4pm - 7pm",
-      "description" : "",
-      "fee" : "35.00",
+    "2-2019-ockoberfest" : {
+      "date" : "Oct 19, 2019",
+      "time" : "",
+      "description" : "Game, Set and Beer!  Registration is open our annual Oktoberfest Tennis Mixer on Saturday, October 19.  Adam “Biertrinker” Grandstaff will warm us up with a quick drill, then round robin doubles play will start.  Bring your favorite craft beer and German appetizer to share.",
+      "fee" : "0.00",
       "format" : "Mixer",
       "fylerurl" : "",
-      "regurl" : "",
-      "thumbnail" : "../assets/img/events/beerfest.png",
-      "title" : "Beer Fest",
-      "regbutton" : "disabled"
-    },
-    "3-2019-Spring-Mixed-Tournament" : {
-      "date" : "May 17-19, 2019",
-      "time" : "All Day",
-      "description" : "Come join us for Legacy Park's Spring Mixed Tournament.  There will be a bracket for every skill level (5.0, 6.0, 7.0, and 8.0)",
-      "fee" : "35.00",
-      "format" : "Mixed Doubles",
-      "fylerurl" : "",
-      "regurl" : "",
-      "thumbnail" : "../assets/img/events/spring-mixed.png",
-      "title" : "Spring Mixed Tournament",
-      "regbutton" : "disabled"
-    },
-    "4-2019-margarita-mixer" : {
-      "date" : "Jun 22, 2019",
-      "time" : "4pm - 7pm",
-      "description" : "Join us for Legacy Park's Margarita Mixer.  This will be a potluck style mixer.",
-      "fee" : "10.00",
-      "format" : "Mixer",
-      "fylerurl" : "",
-      "regurl" : "",
-      "thumbnail" : "../assets/img/events/margarita-mixer.png",
-      "title" : "Margarita Mixer",
-      "regbutton" : "disabled"
-    },
-    "5-2019-tennis-disc-golf-doubles-tournament" : {
-      "date" : "Jul 13, 2019",
-      "time" : "All Day",
-      "description" : "Join us for our annual tennis & disc golf tournament.  This will be a team competition in which each team competes in tennis and disc golf.",
-      "fee" : "25.00",
-      "format" : "Team Competition",
-      "fylerurl" : "",
-      "regurl" : "",
-      "thumbnail" : "../assets/img/events/discgolf.png",
-      "title" : "Tennis & Disc Golf Tournament",
-      "regbutton" : "disabled"
-    },
-    "6-2019-fall-classic" : {
-      "date" : "Aug 21-24, 2019",
-      "time" : "All Day",
-      "description" : "Come join us for Legacy Park's biggest tournament of the year.  There will be a bracket for every skill level ranging from 2.5 to 4.0+.",
-      "fee" : "25.00",
-      "format" : "Men & Womens' Doubles",
-      "fylerurl" : "",
-      "regurl" : "",
-      "thumbnail" : "../assets/img/events/fallclassic.png",
-      "title" : "Fall Classic Tournament",
-      "regbutton" : "disabled"
+      "regurl" : "https://www.cognitoforms.com/LegacyParkTennis/OktoberfestTennisMixerFall2019",
+      "thumbnail" : "",
+      "title" : "Oktoberfest Mixer",
+      "regbutton" : "enabled"
     }
   },
   "programs" : {
@@ -117,86 +69,12 @@
       "thumbnail" : "../assets/img/pros/adam.jpg",
       "title" : "Director of Tennis"
     },
-    "2-darrio-williams" : {
-      "certs" : [ {
-        "description" : "USPTA Certified Elite Teaching Professional, with 25 years of teaching/coaching experience. Graduate of the Professional Tennis Management Program at Ferris State University."
-      }, {
-        "description" : "Legacy Park Head Pro 2009-2012, 2009 USTA High Performance Tennis Coach, 2010 Certified AS-C/RPT Coaching Course, The Spanish Way to Develop Players."
-      }, {
-        "description" : "International Tennis Performance Association (ITPA) Certified Tennis Performance Trainer (2013)."
-      } ],
-      "name" : "Darrio Williams",
-      "phone" : "(770) 335-6235",
-      "thumbnail" : "../assets/img/pros/darrio.jpg",
+    "2-adam-moreheart" : {
+      "certs" : [ {} ],
+      "name" : "Adam Moreheart",
+      "phone" : "(404) 384-9409",
+      "thumbnail" : "../assets/img/pros/adam2.png",
       "title" : "Director of Junior Tennis"
-    }
-  },
-  "sponsorship" : {
-    "1-platinum" : {
-      "cost" : "$1,000",
-      "description" : "Platinum",
-      "perks" : [ {
-        "description" : "One court named for sponsor during the duration of each event held throughout the calendar year (1st 6 platinum sponsors)"
-      }, {
-        "description" : "Sponsor name promoted in all communications to the tennis community prior to each event"
-      }, {
-        "description" : "Sponsor provided banner displayed at the tennis center during event"
-      }, {
-        "description" : "10 x 10 tent/table provided for sponsor promotions"
-      }, {
-        "description" : "Two paid entries to participate in the tournament"
-      } ],
-      "thumbnail" : "../assets/img/sponsor/platinum-level.png"
-    },
-    "2-gold" : {
-      "cost" : "$500",
-      "description" : "Gold",
-      "perks" : [ {
-        "description" : "One court named for sponsor during the duration of each event held during of the event (1st 12 gold sponsors)"
-      }, {
-        "description" : "Sponsor name promoted in all communications to the tennis community prior to the event"
-      }, {
-        "description" : "Sponsor provided banner displayed at the tennis center during the event"
-      }, {
-        "description" : "10 x 10 tent/table provided for sponsor promotions"
-      }, {
-        "description" : "Two paid entries to participate in the tournament"
-      } ],
-      "thumbnail" : "../assets/img/sponsor/gold-level.png"
-    },
-    "3-silver" : {
-      "cost" : "$300",
-      "description" : "Silver",
-      "perks" : [ {
-        "description" : "Sponsor name promoted in all communications to the tennis community prior to the event"
-      }, {
-        "description" : "Sponsor provided banner displayed at the tennis center during the event"
-      }, {
-        "description" : "10 x 10 tent/table provided for sponsor promotions"
-      }, {
-        "description" : "One paid entry to participate in the tournament"
-      } ],
-      "thumbnail" : "../assets/img/sponsor/silver-level.png"
-    },
-    "4-advertising" : {
-      "cost" : "$150",
-      "description" : "Advertising",
-      "perks" : [ {
-        "description" : "Sponsor name promoted in all communications to the tennis community prior to the event"
-      }, {
-        "description" : "Sponsor provided banner displayed at the tennis center during the event"
-      } ],
-      "thumbnail" : "../assets/img/sponsor/advertising-level.png"
-    },
-    "5-foodbeverage" : {
-      "cost" : "Provide Food/Beverage for Players",
-      "description" : "Food/Beverage",
-      "perks" : [ {
-        "description" : "Food and/or beverages to be provided by sponsor for tournament attendees."
-      }, {
-        "description" : "Sponsor allowed to provide advertising (e.g. menus, coupons, etc) at the event to promote their company."
-      } ],
-      "thumbnail" : "../assets/img/sponsor/food-level.png"
     }
   },
   "hero-images" : {
