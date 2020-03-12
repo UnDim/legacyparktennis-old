@@ -1,27 +1,27 @@
 {
   "events" : {
-    "1-2019-pickle-ball" : {
-      "date" : "Fall 2019",
-      "time" : "",
-      "description" : "It’s a Big Dill! Join us for our first Pickleball League this fall. Play starts on Tuesday, October 8th. Register now, it’s absolutely FREE.  No equipment or skill needed.  If you don’t have a partner, you won’t be in a pickle. We’ll find you one.",
+    "1-2020-minute-win" : {
+      "date" : "March 21, 2020",
+      "time" : "6-10pm",
+      "description" : "The clock is ticking and you have a \"Minute to Win it\"!  Join our tennis community as we test our wit, dexterity and athletic skill. Check out our Legacy Park Tennis Facebook Page for more info.",
       "fee" : "0.00",
-      "format" : "Team Competition",
+      "format" : "Drills/Games",
       "fylerurl" : "",
-      "regurl" : "https://www.cognitoforms.com/LegacyParkTennis/LegacyParkPickleballLeagueFall2019",
-      "thumbnail" : "../assets/img/events/olympics.png",
-      "title" : "Fall Pickleball League",
+      "regurl" : "https://www.facebook.com/events/2640692959549728/",
+      "thumbnail" : "../assets/img/events/minute-win.png",
+      "title" : "Minute to Win It Tennis Mixer",
       "regbutton" : "enabled"
     },
-    "2-2019-ockoberfest" : {
-      "date" : "Oct 19, 2019",
+    "2-2020-spring-mixed" : {
+      "date" : "May 15-16, 2020",
       "time" : "",
-      "description" : "Game, Set and Beer!  Registration is open our annual Oktoberfest Tennis Mixer on Saturday, October 19.  Adam “Biertrinker” Grandstaff will warm us up with a quick drill, then round robin doubles play will start.  Bring your favorite craft beer and German appetizer to share.",
+      "description" : "Grab your favorite mixed partner and join us for a great weekend of mixed doubles. Brackets to include: 5.0, 6.0, 7.0, 8.0+  Check out our Legacy Park Tennis Facebook Page for more info.",
       "fee" : "0.00",
-      "format" : "Mixer",
+      "format" : "Tournament",
       "fylerurl" : "",
-      "regurl" : "https://www.cognitoforms.com/LegacyParkTennis/OktoberfestTennisMixerFall2019",
-      "thumbnail" : "",
-      "title" : "Oktoberfest Mixer",
+      "regurl" : "https://www.facebook.com/groups/160417493990281/",
+      "thumbnail" : "../assets/img/events/spring-mixed.png",
+      "title" : "Spring Mixed Tournament",
       "regbutton" : "enabled"
     }
   },

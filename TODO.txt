@@ -1,4 +1,0 @@
-1.  Implement instafeed.js into website
-2.  Change footer and add links to main LP website..
-3.  Pass registration form into registration modal.
-4.  Pass more info into more info modal.
